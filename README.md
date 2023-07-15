@@ -9,7 +9,7 @@ app_file: run.py
 pinned: true
 ---
 
-# AchyuthGPT v2
+# AchyuthGPT
 
 ## Models
 - gpt-3.5-turbo
@@ -29,9 +29,6 @@ pinned: true
 
 <br>
 
-## 🔑 <strong>REQUIRE API KEY BUT IT'S FREE</strong> 
-
-Get your API key from the [AchyuthGPT Discord](https://discord.gg/Fg2HSJgN).
 
 ## Table of Contents  
 - [Getting Started](#getting-started-white_check_mark)  
@@ -43,7 +40,7 @@ Get your API key from the [AchyuthGPT Discord](https://discord.gg/Fg2HSJgN).
   - [Running the Docker](#running-the-docker)
 - [Incorporated Projects](#incorporated-projects-busts_in_silhouette)
   - [WebUI](#webui) 
-  - [API FreeGPT](#api-g4f)
+  - [API AchyuthGPT](#api-g4f)
 - [Star History](#star-history)
 - [Legal Notice](#legal-notice) 
 
@@ -56,7 +53,7 @@ To get started with this project, you'll need to clone the repository and have [
 Run the following command to clone the repository:  
 
 ```
-git clone https://github.com/achyuth4/AchyuthGPT-v2
+git clone https://github.com/achyuth4/AchyuthGPT
 ```
 
 ### Switching to the Achyuthgpt Branch :arrows_counterclockwise:
@@ -72,17 +69,12 @@ pip install -r requirements.txt
 ```
 
 ## Setting up the API Key and .env :key:
-Before starting the application, you need to obtain an API key from AchyuthGPT and set up the .env file.
+Before starting the application, no need to obtain an API key, just set up the .env file.
 
-### Get your API key
-Get your API key from the [AchyuthGPT Discord](https://discord.gg/Fg2HSJgN).
 
 ### Create .env
 In the project directory, create a file called .env.
 Open the .env file and add the following line:
-
-```
-ACHYUTH_API_KEY=<API-Key>  
 ```
 
 ## Running the Application :rocket:
@@ -104,9 +96,8 @@ http://localhost:1338
 ### Prerequisites
 Before you start, make sure you have installed [Docker](https://www.docker.com/get-started) on your machine.
 
-### Get your API key
-Get your API key from the [AchyuthGPT Discord](https://discord.gg/Fg2HSJgN).
-
+### Discord
+[AchyuthGPT Discord](https://discord.gg/wnH6eGx7JF)
 ### Running the Docker
 Pull the Docker image from Docker Hub:
 ```
@@ -115,7 +106,7 @@ docker pull achyuth4/AchyuthGPT-v2
 
 Run the application using Docker:
 ```
-docker run -p 1338:1338 -e ACHYUTH_API_KEY=<API-Key> achyuth4/AchyuthGPT-v2
+docker run -p 1338:1338
 ```
 
 Access the application in your browser using the URL:
